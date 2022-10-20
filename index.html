@@ -1,22 +1,91 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta property="og:title" content="My Website">
+    <meta property="og:type"  content="website">
+    <meta property="og:description" content="Elijah Chou's personal website hosted on GitHub.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Elijah Chou">
+
+    <meta name="author" content="Elijah Chou">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Elijah Chou</h1>
-    <p>Welcome to my website where I shamelessly try to promote the different things I've done in the past. I have links and
-        brief summaries of what each are. I <i>probably</i> will be updating this page as time goes by. Cheers!
-    </p>
-    <ul>
-        <li>K-WAi Audio Visualizer</li>
-        <li>Fuga dal Penitenziario (Italian Language Assessment Game)</li>
-        <li>MIMIC-IV/Grady ICU Data for Predicting ICU Death Outcome with SOFA Scores</li>
-        <li>This Website</li>
-    </ul>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display="block";
+            } else {
+                mybutton.style.display="none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <div class="container">
+        <header class="header">
+            <img src="logos/Asset 1@3x.png">
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="info.html">Info</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <!-- <section>
+                <a href="fallsale.html"><img src="photos/fall_sale.jpg"></a>
+            </section> -->
+            <section>
+                <article>
+                    <img src="photos/jewelry.jpg">
+                    <h1>About this Site</h1>
+                    <p>Welcome to my website where I shamelessly try to promote the different things I've done in the past. I have links and
+                        brief summaries of what each are. I <i>probably</i> will be updating this page as time goes by. Cheers! 
+                    </p>
+                </article>
+                <article>
+                    <img src="photos/headshot.jpg">
+                    <h1>More About Us</h1>
+                    <p>Mariana is the owner and the lead designer of Mangata and Gallo. 
+                        After graduating from design school with a specialization in diamond 
+                        cutting and metal smithing, Mariana opened a store in her hometown, 
+                        Austin and started to grow her business online. Mariana has always managed 
+                        every aspect of the business, from jewelry design to marketing to e-commerce.</p>
+                </article>
+                <article>
+                    <img src="photos/behind_scenes.jpg">
+                    <h1>Behind the Scenes</h1>
+                    <p>Interested in what and how we go from the raw materials to the luxurious
+                        jewelry that we provide to all of you valued customers? Look no more! We
+                        have planned a variety of videos to show you how we do things. From sourcing
+                        material to making the final touches to our jewelry, we will show you how we
+                        do it. Stay tuned and check out our Info page to see when they come out!
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer class="footer">
+            <div>
+                <img src="logos/Asset 2@3x.png">
+            </div>
+            <div class="copyright">
+                <p>© Copyright 2022</p>
+            </div>
+        </footer>
+    </div>
 
 </body>
+
 </html>
