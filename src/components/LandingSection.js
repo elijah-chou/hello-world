@@ -7,8 +7,6 @@ const greeting = "Hello, my name is Elijah!";
 const bio1 = "An aspiring full-stack developer";
 const bio2 = "and a MS in CS candidate";
 
-// Implement the UI for the LandingSection component according to the instructions.
-// Use a combination of Avatar, Heading and VStack components.
 const LandingSection = () => (
   <FullScreenSection
     justifyContent="center"
@@ -28,12 +26,12 @@ const LandingSection = () => (
         </Heading>
       </VStack>
       <VStack spacing={6}>
-        <Heading as="h1" size="3xl" noOfLines={1}>
+        <Heading as="h4" size="3xl" noOfLines={1}>
           {bio1}
         </Heading>
       </VStack>
       <VStack spacing={6}>
-        <Heading as="h1" size="3xl" noOfLines={1}>
+        <Heading as="h4" size="3xl" noOfLines={1}>
           {bio2}
         </Heading>
       </VStack>
