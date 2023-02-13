@@ -5,27 +5,31 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "KWAI Audio Visualizer",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
+      "This was a group project that I contributed to for the CS 370 Computer Science Practicum class taught by Dr. Davide Fossati at Emory University. We built a Java-based Audio Visualizer program that is aimed at inducing feelings/emotions of choice with shapes, sounds, and colors. Audio visualizations were created with the help of the Java-based Processing library. I worked on the back-end and helped the team implement JDBC connections to a Google Cloud Platform hosted MySQL server to help track user usage. Our team was led by Noah Okada and consisted of Matthew Joesoep, Asuka Li, Ameer Husary, Abdullah Hamid, Joseph Pogue, and myself.",
+    url: "https://ameerhusary.github.io/K-WAi/",
     getImageSrc: () => require("../images/photo1.jpg"),
   },
   {
-    title: "React Infinite Scroll",
+    title: "Bees Knees: An Agent-Based Model of Varroa Mite Infestation of Bee Hives",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
+      "The agent-based model implemented with NetLogo attempts to accurately model the relationship and interactions between varroa mites and honey bees. Varroa mites introduced to beehives transmit diseases such as the Deformed Wing Virus (DWV) to bee larvae, and as the mites populate exponentially the overall bee population becomes increasingly affected by the DWV. Essential oil treatments (ex. thyme and spearmint) were introduced to the model to test how reapplication times of oils can affect virus transmission and total varroa mite count within an arbitrary span of time. Further refinement of the model could help beekeepers predict an essential oil cocktail that would be the most effective against varroa mite infestation.",
+    url: "https://github.com/elijah-chou/Bees-Knees-An-Agent-Based-Model-of-Varroa-Mite-Infestation-of-Bee-Hives",
+      getImageSrc: () => require("../images/photo2.jpg"),
   },
   {
-    title: "Photo Gallery",
+    title: "Fuga dal Penitenziario",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
+      "This game was one that Lis Dautaj, Alejandro Pacheco, and myself worked on together as part of a 1-credit hour course offered jointly by the Department of Italian Studies and the Department of Computer Science (IDS 290R) at Emory University. Our main task was to make a game that would serve as a learning supplement to students who are taking ITAL 101 (the first introductory class in Italian language).",
+    url: "https://ecool7079.itch.io/fuga-dal-penitenziario",
     getImageSrc: () => require("../images/photo3.jpg"),
   },
   {
-    title: "Event planner",
+    title: "Open World Atlanta",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
+      "OpenWorld Atlanta seeks to provide engaging 3D and dynamic interfaces to the wealth of data extracted by the Emory Center for Digital Scholarship from historic maps and city directories from post-Civil War Atlanta to 1940. My contributions to this ongoing project is mainly focused on developing the dynamic integration of Atlanta building data to the building layer using Omeka API. I worked with React and JavaScript primarily for this project.",
+    url: "https://atlanta.urbanspatialhistory.org/",
     getImageSrc: () => require("../images/photo4.jpg"),
   },
 ];
@@ -52,6 +56,7 @@ const ProjectsSection = () => {
             key={project.title}
             title={project.title}
             description={project.description}
+            url={project.url}
             imageSrc={project.getImageSrc()}
           />
         ))}
