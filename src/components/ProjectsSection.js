@@ -5,6 +5,13 @@ import Card from "./Card";
 
 const projects = [
   {
+    title: "Forage Article Cameo",
+    description: "I was featured on a Forage article! Find out a little more about my unique path in the link below.",
+    url: "https://www.theforage.com/blog/news/most-in-demand-student-degrees.",
+    getImageSrc: () => require("../images/forage.png")
+
+  },
+  {
     title: "K-WAi audioVisualizer",
     description:
       "This was a group project that I contributed to for the CS 370 Computer Science Practicum class taught by Dr. Davide Fossati at Emory University. We built a Java-based Audio Visualizer program that is aimed at inducing feelings/emotions of choice with shapes, sounds, and colors. Audio visualizations were created with the help of the Java-based Processing library. I worked on the back-end and helped the team implement JDBC connections to a Google Cloud Platform hosted MySQL server to help track user usage. Our team was led by Noah Okada and consisted of Matthew Joesoep, Asuka Li, Ameer Husary, Abdullah Hamid, Joseph Pogue, and myself.",
