@@ -9,7 +9,7 @@ const projects = [
     description: "I worked on and finished an honors thesis! \
     Earning highest honors, I worked with Dr. Davide Fossati and Dr. Arnon Hershkovitz \
     to develop and test a creativity measure on university students' code. \
-    The general gist is that we parsed code into abstract syntax trees and used the tree edit distances\
+    The general gist is that we parsed code into abstract syntax trees and used the tree edit distances \
     between trees to calculate a creativity measure for programs. More info can be found in my publicly \
     published thesis in the link below. Our work was also submitted to the EC-TEL 2023 conference \
     and is pending approval/feedback... so stay tuned for that :)",
@@ -43,8 +43,8 @@ const projects = [
       \between varroa mites and honey bees. Varroa mites introduced to beehives transmit diseases such as the Deformed \
       Wing Virus (DWV) to bee larvae, and as the mites populate exponentially the overall bee population becomes increasingly \
       affected by the DWV. Essential oil treatments (ex. thyme and spearmint) were introduced to the model to test how \
-      reapplication times of oils can affect virus transmission and total varroa mite count within an arbitrary span of time.\
-      Further refinement of the model could help beekeepers predict an essential oil cocktail that would be the most effective\
+      reapplication times of oils can affect virus transmission and total varroa mite count within an arbitrary span of time. \
+      Further refinement of the model could help beekeepers predict an essential oil cocktail that would be the most effective \
       against varroa mite infestation.",
     url: "https://github.com/elijah-chou/Bees-Knees-An-Agent-Based-Model-of-Varroa-Mite-Infestation-of-Bee-Hives",
       getImageSrc: () => require("../images/bees-knees.png"),
@@ -62,7 +62,10 @@ const projects = [
   {
     title: "Open World Atlanta",
     description:
-      "OpenWorld Atlanta seeks to provide engaging 3D and dynamic interfaces to the wealth of data extracted by the Emory Center for Digital Scholarship from historic maps and city directories from post-Civil War Atlanta to 1940. My contributions to this ongoing project is mainly focused on developing the dynamic integration of Atlanta building data to the building layer using Omeka API. I worked with React and JavaScript primarily for this project.",
+      "OpenWorld Atlanta seeks to provide engaging 3D and dynamic interfaces to the wealth of data extracted by the \
+      Emory Center for Digital Scholarship from historic maps and city directories from post-Civil War Atlanta to 1940. \
+      My contributions to this ongoing project is mainly focused on developing the dynamic integration of Atlanta \
+      building data to the building layer using Omeka API. I worked with React and JavaScript primarily for this project.",
     url: "https://atlanta.urbanspatialhistory.org/",
     getImageSrc: () => require("../images/openworld.png"),
   },
