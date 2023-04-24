@@ -29,6 +29,15 @@ const projects = [
     getImageSrc: () => require("../images/jpmorganhackathon.png")
   },
   {
+    title: "AT&T: AI/ML Model Blockchain Ledger",
+    description: "For my Summer 2022 internship, I worked at AT&T under their Technology Development Program. \
+    I mainly worked with an inventive scientist working at their AT&T Labs office in New Jersey on a proof-of-concept \
+    where we attempted to create an immutable ledger of AI and ML models. I developed the ledger with the Corda blockchain \
+    framework and also developed a front-end UI with Springboot and AngularJS. There's no place where you can find more \
+    information since it's all stored in a private, corporate repository, but this was a great experience nevertheless!",
+    getImageSrc: () => require("../images/att.png")
+  },
+  {
     title: "Forage Article Cameo",
     description: "I was featured on a Forage article! Find out a little more about my unique path in the link below.",
     url: "https://www.theforage.com/blog/news/most-in-demand-student-degrees.",
