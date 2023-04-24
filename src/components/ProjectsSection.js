@@ -17,6 +17,18 @@ const projects = [
     getImageSrc: () => require("../images/creativity.png")
   },
   {
+    title: "JPMorgan Chase Code for Good: Coastal Compass at Home",
+    description: "This project was created for JPMorgan Chase's annual Code for Good hackathon hosted at their Plano, TX center. \
+    I unexpectedly was offered an internship and that's how I ended up working as a SWE intern in Summer 2023 :D \
+    Our React-based website was our solution to Education to Employment's challenge of extending educational and employment \
+    training and workshops from in-person centers to the Internet where residents living in more rural areas would be able to \
+    access them without traveling to the city. We incorporated a reactive, modular design so that the web-based application \
+    could be easily accessible via any digital medium and that educational content could be easily inserted into our generalized \
+    tutorial/walkthrough components. The repository is private and I can't fork it, but my internship offer is hopefully enough \
+    proof.",
+    getImageSrc: () => require("../images/jpmorganhackathon.png")
+  },
+  {
     title: "Forage Article Cameo",
     description: "I was featured on a Forage article! Find out a little more about my unique path in the link below.",
     url: "https://www.theforage.com/blog/news/most-in-demand-student-degrees.",
