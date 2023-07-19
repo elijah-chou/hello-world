@@ -5,14 +5,34 @@ import Card from "./Card";
 
 const projects = [
   {
+    title: "JPMC Summer 2023: Airflow Autohealing",
+    description: "I can't discuss too much about the project details since it's an internal \
+    project... but I will proudly talk about some technologies I gained experience in! I worked \
+    a lot with Kubernetes, Kafka, Jenkins, and Airflow for the first time. I also got a certification in Airflow \
+    fundamentals! I also worked with Springboot applications and managed dependencies with Maven. I was also \
+    given permission to brag that I worked and contributed significantly to a project that can save JPMorgan \
+    Chase & Co. $5 million per year. Super busy but super fulfilling summer! Also participated in the firm's \
+    Global Innovation Week Hackathon, and my team won 1st Place in the Atlanta tech center :D",
+    getImageSrc: () => require("../images/jpmcsummer.png")
+  },
+  {
+    title: "5GSpear: Naval Base Fuel Ordering",
+    description: "Throughout the Spring 23 semester, in addition to working on an honors thesis \
+    I worked as a Software Engineer Student Assistant at the Georgia Tech Research Institute under \
+    the Aerospace, Transportation, and Advanced Systems Lab. I mainly worked on a Python Flask web \
+    application that will be used as a fuel ordering system for naval bases. Through this project, I \
+    worked with an MVC framework using Python, HTML/CSS, and some JavaScript since an embedded map \
+    was served as a separate React app. I also worked with Docker and learned more about containers here.",
+    getImageSrc: () => require("../images/gtech.jpg")
+  },
+  {
     title: "Creativity in programming: A code distance approach",
     description: "I worked on and finished an honors thesis! \
     Earning highest honors, I worked with Dr. Davide Fossati and Dr. Arnon Hershkovitz \
     to develop and test a creativity measure on university students' code. \
     The general gist is that we parsed code into abstract syntax trees and used the tree edit distances \
     between trees to calculate a creativity measure for programs. More info can be found in my publicly \
-    published thesis in the link below. Our work was also submitted to the EC-TEL 2023 conference \
-    and is pending approval/feedback... so stay tuned for that :)",
+    published thesis in the link below.",
     url: "https://etd.library.emory.edu/concern/etds/b8515p78f",
     getImageSrc: () => require("../images/creativity.png")
   },
