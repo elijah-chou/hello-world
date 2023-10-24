@@ -1,7 +1,7 @@
 import React from "react";
 import { Avatar, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
-import headshot from "../images/headshot.png"
+import headshot from "../images/headshot.jpg"
 
 const greeting = "Hello, my name is Elijah!";
 const bio1 = "An aspiring full-stack developer";
