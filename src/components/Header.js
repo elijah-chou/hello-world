@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faCertificate } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
+  faWordpress,
+  faMedium,
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack } from "@chakra-ui/react";
 
@@ -19,6 +21,18 @@ const socials = [
   {
     icon: faLinkedin,
     url: "https://www.linkedin.com/in/elijah-chou/",
+  },
+  {
+    icon: faWordpress,
+    url: "https://elijahchou.wordpress.com/",
+  },
+  {
+    icon: faMedium,
+    url: "https://medium.com/@elijahchou",
+  },
+  {
+    icon: faCertificate,
+    url: "https://www.credly.com/users/elijah-chou/badges",
   },
 ];
 
