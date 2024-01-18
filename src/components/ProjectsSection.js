@@ -5,6 +5,26 @@ import Card from "./Card";
 
 const projects = [
   {
+    title: "ChatGeminiPro",
+    description: "This is a side project that I worked on over the 2023-2024 winter break that was inspired by both my \
+    Human AI Interaction class and also my friend's own project. I wanted to practice using GitHub's Copilot to help me \
+    rapidly develop a simple, powerful chatbot while also learning to integrate Google's new Gemini Pro API into my project. \
+    It was a great experience and I hope to continue working on it in the future!",
+    url: "https://github.com/elijah-chou/GeminiPro-chatbot",
+    getImageSrc: () => require("../images/chatgeminipro.png")
+  },
+  {
+    title: "Legion: Writing Assistant Daemons",
+    description: "Legion is a simple text editor that provides AI-powered writing assistance to users. \
+    Once a user enters their Google PaLM API key, they will be able to ask one of three different daemons \
+    to give the user some feedback and/or suggestions on their writing. I built this as part of a group project \
+    for CS 584: Human-AI Interaction taught by Dr. Chinmay Kulkarni at Emory University. \
+    I worked on prompt engineering and the backend, while Aditya Prakash and Rayvant Sahni worked on the frontend \
+    and user feedback, respectively. The accompanying code can be found on my GitHub profile. :D Hurray for AI",
+    url: "https://elijah-chou.github.io/humanAIinteraction/",
+    getImageSrc: () => require("../images/legion.png")
+  },
+  {
     title: "JPMC Summer 2023: Airflow Autohealing",
     description: "I can't discuss too much about the project details since it's an internal \
     project... but I will proudly talk about some technologies I gained experience in! I worked \
