@@ -5,6 +5,13 @@ import Card from "./Card";
 
 const projects = [
   {
+    title: "Honors Thesis at CSEDU 2024 as Short Paper",
+    description: "My honors thesis was accepted as a short paper at CSEDU 2024! \
+    Nothing new, but just proud that my yearslong work is being recognized by the academic community :D",
+    url: "https://www.insticc.org/node/TechnicalProgram/CSEDU/2024/presentationDetails/126321",
+    getImageSrc: () => require("../images/csedu.png")
+  },
+  {
     title: "ChatGeminiPro",
     description: "This is a side project that I worked on over the 2023-2024 winter break that was inspired by both my \
     Human AI Interaction class and also my friend's own project. I wanted to practice using GitHub's Copilot to help me \
